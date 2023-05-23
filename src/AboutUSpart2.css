@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "TimberLine";
+    src :url("images/Resistenza - Timberline Regular.otf");
+
+}
+
+.logo{
+    font-size:75px;
+    font-weight:700;
+    color:White;
+    font-family: TimberLine, sans-serif;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: -60px;
+    z-index:1000;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+.navlist{
+    display:flex;
+}
+.navlist a{
+    color:white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight:600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+
+body {
+    height: 100vh;
+    width: 200vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #061de3, #e306ca);
+
+    font-family: Helvetica, sans-serif;
+    color: rgb(211, 211, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+}
+
+
+.container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-image: url(images/Anchor.png);
+}
+
+.back {
+    background-image: url(images/Hilmi.jpg);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.h1{
+    margin-top:20px;
+}
+
+
+
+.container2 {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+    margin-left:35px;
+}
+
+.container2:hover > .card2 {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card2 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front2,
+.back2 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front2 {
+    background-image: url(images/Flame.png);
+}
+
+.back2 {
+    background-image: url(images/MartinFinal.jpg);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.h1{
+    margin-top:20px;
+}
+
+
+
+
+
+
+.container3 {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+    margin-left:35px;
+}
+
+.container3:hover > .card3 {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card3 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front3,
+.back3 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front3 {
+    background-image: url(images/Ice.jpg);
+}
+
+.back3 {
+    background-image: url(images/Oleksii.JPG);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.h1{
+    margin-top:20px;
+}
+
+
+
+
+
+
+.container4 {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+    margin-left:35px;
+}
+
+.container4:hover > .card4 {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card4 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front4,
+.back4 {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front4 {
+    background-image: url(images/Camel.png);
+}
+
+.back4 {
+    background-image: url(images/Sam.png);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.h1{
+    margin-top:20px;
+}
+
+
+
+
