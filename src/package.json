@@ -1,0 +1,30 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Player1",
+      "points": 100
+    },
+    {
+      "id": 2,
+      "name": "Player2",
+      "points": 75
+    },
+    {
+      "id": 3,
+      "name": "Player3",
+      "points": 120
+    },
+    {
+      "id": 4,
+      "name": "Player4",
+      "points": 90
+    },
+    {
+      "id": 5,
+      "name": "Player5",
+      "points": 110
+    }
+  ]
+}
+

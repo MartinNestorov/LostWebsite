@@ -1,0 +1,29 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "John",
+      "points": 100
+    },
+    {
+      "id": 2,
+      "name": "Ivan",
+      "points": 75
+    },
+    {
+      "id": 3,
+      "name": "Jeremy",
+      "points": 120
+    },
+    {
+      "id": 4,
+      "name": "Benjamin",
+      "points": 90
+    },
+    {
+      "id": 5,
+      "name": "Laika",
+      "points": 110
+    }
+  ]
+}
