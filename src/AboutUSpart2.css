@@ -197,7 +197,7 @@ body {
 }
 
 .back3 {
-    background-image: url(images/Oleksii.JPG);
+    background-image: url(images/OleksiiColdPic.png);
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
